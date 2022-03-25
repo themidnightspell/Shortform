@@ -1,0 +1,305 @@
+/*
+ul controls the large rectangle across the top of the screen
+list-style-type: Changes the list from using dots to nothing
+overflow: hidden so if something is longer than the ul, it doesn't appear
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+  }
+  
+  /* li adds a element to the list*/
+  li {
+    float: left;
+  }
+  
+  /* 
+  dropbtn controls the text (header navigation) of the dropdown bar
+  color: changes the text color
+  padding: Changing this increases or decreases the size of each box (height, width)
+  text-decoration: none, this removes the underline from the links
+  */
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .searchbar {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /*
+  This is the searach button (magnifine glass icon)
+  the margins, paddings, and fontsize all control the size of the button. Its really just trial and error, I don't have a ratio worked out 
+  background: controls the background color of the search button
+  */
+  .searchbar button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /*
+  This controls the search bar size
+  All of these work together to control the size, trial and error.
+  */
+  .searchbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  
+  /*
+  This changes the the color of hovering over a dropdown menu
+  */
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* this tells the dropdowns to display sideways */
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  /* 
+  This contains the subbox of a dropdown (where the links are)
+  display: none is used so that the div has no effect on the layout 
+  position: absolute, controls where the submenu appears, absolute has it directly under the dropdown box, left-aligned
+  background-color: this controls the color of the submenu 
+  z-index: controls where the element appears in the background/foreground. Currently displays ontop of other elements
+  */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /*
+  This controls what the links look like in the submenu
+  color: text color
+  padding: Changing this increases or decreases the size of each box (height, width)
+  */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* this changes the color of hovering over a link in the submenu */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .logo {
+    max-height: 50px;
+  }
+  
+  
+
+#featured {box-sizing: border-box;}
+#featured {font-family: Verdana, sans-serif; margin:0}
+#featured .mySlides {display: none}
+#featured img {vertical-align: middle;
+width: 100%;
+height: calc((50vw) * 0.5625);
+object-fit: cover;
+}
+
+/* Slideshow container */
+#featured .slideshow-container {
+max-width: 1300px;
+position: relative;
+margin: auto;
+}
+
+/* Next & previous buttons */
+#featured .prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+#featured .next {
+right: 0;
+/* border-radius: 3px 0 0 3px; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#featured .prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+#featured .text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+}
+
+/* Number text (1/3 etc) */
+#featured .numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+#featured .dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+#featured .active, .dot:hover {
+background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}  */
+
+#mid-content  .row{
+display: table;
+width: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+#mid-content  .column {
+display: table-cell;
+width: 33.33%;
+}
+#mid-content h3{
+text-align: center;
+}
+#mid-content article{
+text-align: center;
+}
+/* Clear floats after the columns */
+#mid-content .row:after {
+clear: both;
+}
+
+#mid-content img
+{width: 70%;
+display:block;
+margin: auto;
+padding-bottom: 5px;}
+
+#mid-content .more {
+clear:both;
+float: right;
+/* float:right; */
+margin-top:0;
+margin-right: 5em;
+}
+
+#trending {
+margin-left: 40px;
+margin-right: 40px;
+}
+
+#trending img{
+height: 100%;
+}
+
+#trending #trending-container{
+height: 200px;
+display:flex;
+justify-content: space-between;
+
+}
+#trending .more{
+    clear:both;
+    float:right;
+}
+
+.footer { 
+  background-color: #0000ff;
+  /*
+  This is an backup solution im leaving in for now
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  padding-left: 40px;
+  margin: auto;
+  flex: auto;
+  */
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 200px;
+  grid-auto-flow: column;
+  min-height: 150px;
+}
+
+dd, dt {
+  color: white;
+}
+
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+dl {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

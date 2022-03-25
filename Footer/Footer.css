@@ -1,0 +1,42 @@
+.container { 
+  background-color: #0000ff;
+  /*
+  This is an backup solution im leaving in for now
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  padding-left: 40px;
+  margin: auto;
+  flex: auto;
+  */
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 200px;
+  grid-auto-flow: column;
+  min-height: 150px;
+}
+
+dd, dt {
+  color: white;
+}
+
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+dl {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

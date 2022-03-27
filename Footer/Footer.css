@@ -1,4 +1,4 @@
-.container { 
+#footer .container { 
   background-color: #0000ff;
   /*
   This is an backup solution im leaving in for now
@@ -17,13 +17,14 @@
   gap: 200px;
   grid-auto-flow: column;
   min-height: 150px;
+  margin: auto;
 }
 
-dd, dt {
+#footer dd, dt {
   color: white;
 }
 
-p {
+#footer p {
   color: white;
   margin: 0;
   padding: 0;
@@ -31,12 +32,12 @@ p {
   word-wrap: break-word;
 }
 
-dl {
+#footer dl {
   padding: 0;
   margin: 0;
 }
 
-a {
+#footer a {
   text-decoration: none;
   color: white;
 }

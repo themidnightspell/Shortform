@@ -15,7 +15,7 @@
 <body >
   <ul>
     <li>
-      <a href="/cs329e-bulko/alyssal3/ShortForm/Homepage/Body.php"><img src="Logo.png" alt="ShortForm logo" class="logo"></a>
+      <a href="Logo.svg"><img src="Logo.png" alt="ShortForm logo" class="logo"></a>
     </li>
     <li class="dropdown">
       <a href="#" onclick="return false;" class="dropbtn">Film</a>
@@ -47,7 +47,7 @@
     </li>
 
     <li class="dropdown">
-      <a href="/cs329e-bulko/alyssal3/ShortForm/Submit-a-Film/submissions.php" class="dropbtn">Submit a Film!</a>
+      <a href="../Submit-a-film/submissions.php" class="dropbtn">Submit a Film!</a>
     </li>
 
     <li class="searchbar">

@@ -49,7 +49,7 @@
       <div class="column right">
         <p>ShortForm is a platform to recongize the creativity of the short form film industry: encompassing short films, experimetal films, music videos, and commercials.</p> <br>
         <p> Made in Austin, Texas</p> <br>
-        <p><a href="#">Instagram</a>/<a href="#">Twitter</a>/<a href="#">YouTube</a></p>
+        <p><a href="https://www.instagram.com/shortformclub/">Instagram</a>/<a href="#">Twitter</a>/<a href="#">YouTube</a></p>
       </div>
     </div>
   </div>

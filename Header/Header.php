@@ -12,16 +12,16 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 
-<body>
+<body >
   <ul>
     <li>
-      <a href="Header.html"><img src="Logo.png" alt="ShortForm logo" class="logo"></a>
+      <a href="/cs329e-bulko/alyssal3/ShortForm/Homepage/Body.php"><img src="Logo.png" alt="ShortForm logo" class="logo"></a>
     </li>
     <li class="dropdown">
       <a href="#" onclick="return false;" class="dropbtn">Film</a>
       <div class="dropdown-content">
         <a href="#">Short Films</a>
-        <a href="#">Documentries</a>
+        <a href="#">Documentaries</a>
         <a href="#">Commercials</a>
         <a href="#">Experimentals</a>
       </div>
@@ -47,7 +47,7 @@
     </li>
 
     <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">Submit a Film!</a>
+      <a href="/cs329e-bulko/alyssal3/ShortForm/Submit-a-Film/submissions.php" class="dropbtn">Submit a Film!</a>
     </li>
 
     <li class="searchbar">

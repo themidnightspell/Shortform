@@ -12,7 +12,7 @@
 </head> 
 
 <body>
-    <?php include("../Header/Header.php" ?>
+    <?php include("../Header/Header.php") ?>
     
     <div class="paragraph">
     <h1>What we're building</h1>
@@ -88,7 +88,7 @@
     </p>
         </div>
         
-    <?php include("../Footer/Footer.php" ?>
+    <?php include("../Footer/Footer.php") ?>
 
 
 </body>

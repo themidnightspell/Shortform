@@ -1,0 +1,50 @@
+#filters {
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+    background-color: lightgray;
+    padding-bottom: 25px;
+}
+
+#filters h1 {
+    font-size: 1em;
+}
+.filterBox {
+    padding: 10px;
+}
+
+.filterBox input {
+    margin-bottom: 10px;
+}
+
+#minBudget, #maxBudget {
+    width: 50px;
+}
+
+#filters .button {
+    margin-left: 10px;
+}
+
+#directory-container {
+    width: 800px;
+    float: right;
+}
+
+#directory-container img {
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

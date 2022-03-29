@@ -30,7 +30,7 @@
           <dd><a href="#">Editorials</a></dd>
           <dd><a href="#">User-Generated</a></dd>
           <br>
-          <dt><a href="#">About Us</a></dt>
+          <dt><a href="../AboutUs/AboutUs.php">About Us</a></dt>
         </dl>
       </div>
 
@@ -42,7 +42,7 @@
           <dd><a href="#">Production Co.</a></dd>
           <dd><a href="#">Ad Agencies</a></dd>
           <br>
-          <dt><a href="#">Contact</a></dt>
+          <dt><a href="../ContactUs/ContactUs.php">Contact Us</a></dt>
         </dl>
       </div>
 

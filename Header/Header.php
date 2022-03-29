@@ -15,7 +15,7 @@
 <body >
   <ul>
     <li>
-      <a href="Logo.svg"><img src="Logo.png" alt="ShortForm logo" class="logo"></a>
+      <a href="../Homepage/Body.php"><img src="../Header/Logo.png" alt="ShortForm logo" class="logo"></a>
     </li>
     <li class="dropdown">
       <a href="#" onclick="return false;" class="dropbtn">Film</a>

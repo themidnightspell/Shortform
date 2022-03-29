@@ -33,16 +33,16 @@
     <div class="filterBox">
       <h1>Sort</h1>   
       
-      <input name="display" type="radio" id="releaseDate" value="releaseDate">
+      <input name="sort" type="radio" id="releaseDate" value="releaseDate">
       <label for="releaseDate">Release Date</label><br>
       
-      <input name="display" type="radio" id="alphabetical" value="alphabetical">
+      <input name="sort" type="radio" id="alphabetical" value="alphabetical">
       <label for="alphabetical">Alphabetical</label><br>
     
-      <input name="display" type="radio" id="runtime" value="runtime">
+      <input name="sort" type="radio" id="runtime" value="runtime">
       <label for="runtime">Runtime</label><br>
 
-      <input name="display" type="radio" id="dateAdded" value="dateAdded">
+      <input name="sort" type="radio" id="dateAdded" value="dateAdded">
       <label for="dateAdded">Date Added</label>
     </div>
 
@@ -168,5 +168,5 @@
       
   </div>
     
-  <?php include('../Footer/Footer.php') ?>
+  <!--#include file="../Footer/Footer.php" -->
 </body>

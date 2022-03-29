@@ -1,0 +1,19 @@
+h1 {
+    
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+   color: #0000ff;
+}
+
+p {
+    font-size: 17px;
+
+}
+
+.paragraph {
+    
+    padding: 12px;
+    
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

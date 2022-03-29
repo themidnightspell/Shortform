@@ -8,13 +8,13 @@
    <meta name="ContactUs" content="Contact">
    <meta name="Miu Nakata" content="Contact">
 
-      <link rel = "stylesheet" type = "text/css" href = "./ContactUs.css"/>
+      <link rel = "stylesheet" type = "text/css" href = "ContactUs.css"/>
 
 </head> 
 
 <body>
     
-     <?php include("../Header/Header.php" ?>
+     <?php include("../Header/Header.php") ?>
 
     <tr>
         <td>

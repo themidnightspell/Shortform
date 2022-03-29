@@ -75,6 +75,6 @@
     <h1><br>
         <a href="https://spring-2022.cs.utexas.edu/cs329e-bulko/nakatmiu/Shortform/ShortForm-main/Homepage/Body.php"><i>Homepage</i></a></h1>
     
-    
+    <?php include("../Footer/Footer.php") ?>
 </body>
 </html>

@@ -1,0 +1,95 @@
+body {
+    background: white;
+}
+
+h3 {
+    
+    text-align: center;
+    font-size: 30px;
+    
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    
+    
+    padding-bottom: 10px;
+}
+
+
+p {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+form {
+    background-color: #717171;
+    border-radius: 20px;
+    width: 400px;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+label {
+    color: white;
+}
+
+input[type="text"], input[type="pass"] {
+    width: 250px;
+    background-color: aliceblue;
+    height: 30px;
+    font-size: 12pt;
+    
+}
+
+.form {
+    padding-top: px
+}
+
+input:focus, input:active {
+    outline: none;
+}
+
+table {
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+td.buttons {
+    text-align: center;
+    padding-left: 30px;
+}
+
+input[type="submit"], input[type="reset"]{
+    
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 10pt;
+    color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

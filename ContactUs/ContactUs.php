@@ -20,7 +20,13 @@
         <td>
     
 
-    
+    <p id = "about"> 
+       Shortform is a project by Aram, Alyssa, Miu and Sebastian, students at UT Austin. 
+       <b>Aram</b> is a third year Radio-Television-Film major who has experience in film production, set assistance and as a director of photography.
+       <b>Alyssa</b> is a third year Informatics major with a background in computer science and front-end development who has worked with the local arts community, especially in radio at KVRX.
+       <b>Miu</b> is a second year Radio-Television-Film major, a hair and makeup artist and an award winning filmmaker at SXSW, Slay Horror Film Festival and more.
+       <b>Sebastian</b> is a a third year Informatics major with a background in computer science, data science and full-stack development.
+   </p>
     <h3>Contact Us</h3>
     
             <h1><br>Our Email: <br>
@@ -35,7 +41,7 @@
     
     
                 
-    <div class="form">
+    <div class="contact-form">
     <form>
         
     <p>

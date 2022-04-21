@@ -18,7 +18,7 @@
       <a href="../Homepage/Body.php"><img src="../Header/Logo.png" alt="ShortForm logo" class="logo"></a>
     </li>
     <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">Film</a>
+      <a href="../Directory/Directory.php" class="dropbtn">Film</a>
       <div class="dropdown-content">
         <a href="#">Short Films</a>
         <a href="#">Documentaries</a>
@@ -28,7 +28,7 @@
     </li>
 
     <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">Collection</a>
+      <a href="../Directory/Directory.php" class="dropbtn">Collection</a>
       <div class="dropdown-content">
         <a href="#">Editorials</a>
         <a href="#">Film Festivals</a>
@@ -37,7 +37,7 @@
     </li>
 
     <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">People</a>
+      <a href="../Directory/Directory.php"  class="dropbtn">People</a>
       <div class="dropdown-content">
         <a href="#">Cast</a>
         <a href="#">Crew</a>
@@ -47,9 +47,12 @@
     </li>
 
     <li class="dropdown">
-      <a href="../Submit-a-film/submissions.php" class="dropbtn">Submit a Film!</a>
+      <a href="../Submit-a-Film/submissions.php" class="dropbtn">Submit a Film!</a>
     </li>
 
+    <li class="dropdown">
+      <a href="../ContactUs/ContactUs.php" class="dropbtn">Contact Us</a>
+    </li>
     <li class="searchbar">
       <!-- Need php for a proper search, this is placeholder-->
       <form>

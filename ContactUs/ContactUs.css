@@ -25,10 +25,10 @@ h1 {
 
 p {
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
-form {
+.contact-form {
     background-color: #717171;
     border-radius: 20px;
     width: 400px;
@@ -45,7 +45,7 @@ label {
     color: white;
 }
 
-input[type="text"], input[type="pass"] {
+#inputs {
     width: 250px;
     background-color: aliceblue;
     height: 30px;
@@ -92,4 +92,3 @@ input[type="submit"], input[type="reset"]{
     margin-left: 10px;
     margin-right: 10px;
 }
-

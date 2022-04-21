@@ -18,31 +18,32 @@
       <a href="../Homepage/Body.php"><img src="../Header/Logo.png" alt="ShortForm logo" class="logo"></a>
     </li>
     <li class="dropdown">
-      <a href="../Directory/Directory.php" class="dropbtn">Film</a>
+      <a href="#" onclick="return false;" class="dropbtn">Film</a>
       <div class="dropdown-content">
-        <a href="#">Short Films</a>
-        <a href="#">Documentaries</a>
-        <a href="#">Commercials</a>
-        <a href="#">Experimentals</a>
+        <a href="../Directory/Directory.php">Short Films</a>
+        <a href="../Directory/Directory.php">Music Videos</a>
+        <a href="../Directory/Directory.php">Experimentals</a>
+        <a href="../Directory/Directory.php">Commercials</a>
       </div>
     </li>
 
     <li class="dropdown">
-      <a href="../Directory/Directory.php" class="dropbtn">Collection</a>
+      <a href="#" onclick="return false;" class="dropbtn">Collection</a>
       <div class="dropdown-content">
-        <a href="#">Editorials</a>
-        <a href="#">Film Festivals</a>
-        <a href="#">School Screenings</a>
+        <a href="../Directory/Directory.php">Film Festivals</a>
+        <a href="../Directory/Directory.php">Film Schools</a>
+        <a href="../Directory/Directory.php">Editorials</a>
+        <a href="../Directory/Directory.php">User-Generated</a>
       </div>
     </li>
 
     <li class="dropdown">
-      <a href="../Directory/Directory.php"  class="dropbtn">People</a>
+      <a href="#" onclick="return false;" class="dropbtn">People</a>
       <div class="dropdown-content">
-        <a href="#">Cast</a>
-        <a href="#">Crew</a>
-        <a href="#">Production Companies</a>
-        <a href="#">Advertising Agentcies</a>
+        <a href="../Directory/Directory.php">Cast</a>
+        <a href="../Directory/Directory.php">Crew</a>
+        <a href="../Directory/Directory.php">Production Co.</a>
+        <a href="../Directory/Directory.php">Advertising Agentcies</a>
       </div>
     </li>
 
@@ -50,9 +51,9 @@
       <a href="../Submit-a-Film/submissions.php" class="dropbtn">Submit a Film!</a>
     </li>
 
-    <li class="dropdown">
+    <li class="downdown">
       <a href="../ContactUs/ContactUs.php" class="dropbtn">Contact Us</a>
-    </li>
+
     <li class="searchbar">
       <!-- Need php for a proper search, this is placeholder-->
       <form>

@@ -13,10 +13,10 @@
       <div class="column left">
         <dl>
           <dt><b><a href="#">Films</a></b></dt>
-          <dd><a href="#">Short Films</a></dd>
-          <dd><a href="#">Music Videos</a></dd>
-          <dd><a href="#">Experimentals</a></dd>
-          <dd><a href="#">Commercials</a></dd>
+          <dd><a href="../Directory/Directory.php">Short Films</a></dd>
+          <dd><a href="../Directory/Directory.php">Music Videos</a></dd>
+          <dd><a href="../Directory/Directory.php">Experimentals</a></dd>
+          <dd><a href="../Directory/Directory.php">Commercials</a></dd>
           <br>
           <dt><a href="#">Terms+Conditions</a></dt>
         </dl>
@@ -25,10 +25,10 @@
       <div class="column left">
         <dl>
           <dt><b><a href="#">Collections</a></b></dt>
-          <dd><a href="#">Film Festivals</a></dd>
-          <dd><a href="#">Film Schools</a></dd>
-          <dd><a href="#">Editorials</a></dd>
-          <dd><a href="#">User-Generated</a></dd>
+          <dd><a href="../Directory/Directory.php">Film Festivals</a></dd>
+          <dd><a href="../Directory/Directory.php">Film Schools</a></dd>
+          <dd><a href="../Directory/Directory.php">Editorials</a></dd>
+          <dd><a href="../Directory/Directory.php">User-Generated</a></dd>
           <br>
           <dt><a href="../AboutUs/AboutUs.php">About Us</a></dt>
         </dl>
@@ -37,10 +37,10 @@
       <div class="column left">
         <dl>
           <dt><b><a href="#">People</a></b></dt>
-          <dd><a href="#">Cast</a></dd>
-          <dd><a href="#">Crew</a></dd>
-          <dd><a href="#">Production Co.</a></dd>
-          <dd><a href="#">Ad Agencies</a></dd>
+          <dd><a href="../Directory/Directory.php">Cast</a></dd>
+          <dd><a href="../Directory/Directory.php">Crew</a></dd>
+          <dd><a href="../Directory/Directory.php">Production Co.</a></dd>
+          <dd><a href="../Directory/Directory.php">Advertising Agencies</a></dd>
           <br>
           <dt><a href="../ContactUs/ContactUs.php">Contact Us</a></dt>
         </dl>

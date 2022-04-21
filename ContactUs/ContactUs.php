@@ -3,12 +3,12 @@
 <html lang="en">
 
 <head>
-   <title>ENTER TITLE HERE</title>
+   <title>ShortForm: Contact Us</title>
    <meta charset="UTF-8">
    <meta name="ContactUs" content="Contact">
    <meta name="Miu Nakata" content="Contact">
 
-      <link rel = "stylesheet" type = "text/css" href = "ContactUs.css"/>
+  <link rel = "stylesheet" type = "text/css" href = "ContactUs.css"/>
 
 </head> 
 
@@ -17,42 +17,41 @@
      <?php include("../Header/Header.php") ?>
 
     <tr>
-        <td>
-    
+        <td>    
+    <h3>Contact Us</h3>
 
     <p id = "about"> 
-       Shortform is a project by Aram, Alyssa, Miu and Sebastian, students at UT Austin. 
-       <b>Aram</b> is a third year Radio-Television-Film major who has experience in film production, set assistance and as a director of photography.
-       <b>Alyssa</b> is a third year Informatics major with a background in computer science and front-end development who has worked with the local arts community, especially in radio at KVRX.
-       <b>Miu</b> is a second year Radio-Television-Film major, a hair and makeup artist and an award winning filmmaker at SXSW, Slay Horror Film Festival and more.
-       <b>Sebastian</b> is a a third year Informatics major with a background in computer science, data science and full-stack development.
-   </p>
-    <h3>Contact Us</h3>
+      Shortform is a project by Aram, Alyssa, Miu and Sebastian, students at UT Austin. <br>
+      <b>Aram</b> is a third year Radio-Television-Film major who has experience in film production, set assistance and as a director of photography. <br>
+      <b>Alyssa</b> is a third year Informatics major with a background in computer science and front-end development who has worked with the local arts community, especially in radio at KVRX. <br>
+      <b>Miu</b> is a second year Radio-Television-Film major, a hair and makeup artist and an award winning filmmaker at SXSW, Slay Horror Film Festival and more. <br>
+      <b>Sebastian</b> is a a third year Informatics major with a background in computer science, data science and full-stack development. <br>
+      </p>
     
-            <h1><br>Our Email: <br>
-                <a href="mailto:abaali@utexas.edu"><i>Aram Baali</i></a><br>
-                <a href="mailto:nakatmiu@utexas.edu"><i>Miu Nakata</i></a><br>
-                <a href="mailto:alyssalin@utexas.edu"><i>Alyssa Lin</i></a><br>
-                <a href="mailto:sebastiangranhold@utexas.edu"><i>Sebastian Granhold</i></a><br>
+      <h1><br>Our Email: <br>
+          <a href="mailto:abaali@utexas.edu"><i>Aram Baali</i></a><br>
+          <a href="mailto:nakatmiu@utexas.edu"><i>Miu Nakata</i></a><br>
+          <a href="mailto:alyssalin@utexas.edu"><i>Alyssa Lin</i></a><br>
+          <a href="mailto:sebastiangranhold@utexas.edu"><i>Sebastian Granhold</i></a><br>
                 
                 
-                
+
 
     
     
                 
-    <div class="contact-form">
+    <div class=".contact-form">
     <form>
         
     <p>
-      <label> Your Name: <input name = "name" type = "text" size = "30" /> </label>
+      <label> Your Name: <input name = "name" type = "text" size = "30" id="inputs"/> </label>
    </p>
 
    <p>
-      <label> Email Address: <input name = "email" type = "text" size = "30" /> </label>
+      <label> Email Address: <input name = "email" type = "text" size = "30" id="inputs"/> </label>
    </p>
     <p>
-      <label> Phone Number: <input name = "phone" type = "text" size = "30" /> </label>
+      <label> Phone Number: <input name = "phone" type = "text" size = "30" id="inputs"/> </label>
    </p>
 
 

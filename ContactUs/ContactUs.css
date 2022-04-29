@@ -28,7 +28,7 @@ p {
     font-size: 15px;
 }
 
-.contact-form {
+#contact-form {
     background-color: #717171;
     border-radius: 20px;
     width: 400px;
@@ -39,10 +39,6 @@ p {
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-label {
-    color: white;
 }
 
 #inputs {
@@ -61,8 +57,7 @@ input:focus, input:active {
     outline: none;
 }
 
-table {
-    
+table {   
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;

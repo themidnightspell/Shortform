@@ -34,26 +34,30 @@
 
   <div id="contact-form">
     <form method="post"> 
-      <p>
-        <label> Your Name: <input name = "name" type = "text" size = "30" id="inputs" require/> </label>
-      </p>
-      <p>
-        <label> Email Address: <input name = "email" type = "email" size = "30" id="inputs" require/> </label>
-      </p>
-      <p>
-        <label> Phone Number: <input name = "phone" type = "text" size = "30" id="inputs" require/> </label>
-      </p>
+      <table>
+      <tr>
+        <td><label> Your Name: </td>
+        <td><input name = "name" type = "text" size = "30" id="inputs" require/> </label></td>
+      </tr>
+      <tr>
+        <td><label> Email Address: </td>
+        <td><input name = "email" type = "email" size = "30" id="inputs" require/> </label></td>
+      </tr>
+      <tr>
+        <td><label> Phone Number: </td>
+        <td><input name = "phone" type = "text" size = "30" id="inputs" require/> </label></td>
+      </tr>
 
-      <p style="align-text: center;">
-        <label> Additional Comments: <br />
-          <textarea name = "comments" rows = "4" cols = "36"> Enter your comments here: </textarea>
-        </label>
-      </p>
+      </table>
+
+        <p style="text-align: center;"> Additional Comments: <br /> </p>
+        <textarea name = "comments" rows = "4" cols = "36"> Enter your comments here: </textarea>
 
       <p>
         <input name = "submit" type = "submit" value = "Enter" />
         <input type = "reset" value = "Reset" />
       </p>
+      
     </form>
 
     <script defer>

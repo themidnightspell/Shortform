@@ -54,13 +54,6 @@
     <li class="downdown">
       <a href="../ContactUs/ContactUs.php" class="dropbtn">Contact Us</a>
 
-    <li class="searchbar">
-      <!-- Need php for a proper search, this is placeholder-->
-      <form>
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </li>
   </ul>
 </body>
 </html>

@@ -28,26 +28,6 @@
     </li>
 
     <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">Collection</a>
-      <div class="dropdown-content">
-        <a href="../Directory/Directory.php">Film Festivals</a>
-        <a href="../Directory/Directory.php">Film Schools</a>
-        <a href="../Directory/Directory.php">Editorials</a>
-        <a href="../Directory/Directory.php">User-Generated</a>
-      </div>
-    </li>
-
-    <li class="dropdown">
-      <a href="#" onclick="return false;" class="dropbtn">People</a>
-      <div class="dropdown-content">
-        <a href="../Directory/Directory.php">Cast</a>
-        <a href="../Directory/Directory.php">Crew</a>
-        <a href="../Directory/Directory.php">Production Co.</a>
-        <a href="../Directory/Directory.php">Advertising Agentcies</a>
-      </div>
-    </li>
-
-    <li class="dropdown">
       <a href="../Submit-a-Film/submissions.php" class="dropbtn">Submit a Film!</a>
     </li>
 

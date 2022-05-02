@@ -1,3 +1,8 @@
+<?php 
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -38,12 +43,6 @@
       
       <input name="sort" type="radio" id="alphabetical" value="alphabetical">
       <label for="alphabetical">Alphabetical</label><br>
-    
-      <input name="sort" type="radio" id="runtime" value="runtime">
-      <label for="runtime">Runtime</label><br>
-
-      <input name="sort" type="radio" id="dateAdded" value="dateAdded">
-      <label for="dateAdded">Date Added</label>
     </div>
 
     <div class="filterBox">
@@ -72,34 +71,32 @@
       <input name="genre[]" type="checkbox" id="comedy" value="comedy">
       <label for="comedy">Comedy</label><br>
 
-      <input name="genre[]" type="checkbox" id="thrille" value="thrille">
-      <label for="thrille">Thriller</label><br>
+      <input name="genre[]" type="checkbox" id="crime" value="crime">
+      <label for="thrille">Crime</label><br>
     
+      <input name="genre[]" type="checkbox" id="drama" value="drama">
+      <label for="romance">Drama</label><br>
+
+      <input name="genre[]" type="checkbox" id="Fantasy" value="Fantasy">
+      <label for="romance">Fantasy</label><br>
+      
+      <input name="genre[]" type="checkbox" id="horror" value="horror">
+      <label for="romance">Horror</label><br>
+
+      <input name="genre[]" type="checkbox" id="musical" value="musical">
+      <label for="romance">Musical</label><br>
+
       <input name="genre[]" type="checkbox" id="romance" value="romance">
       <label for="romance">Romance</label><br>
-    </div>
-    
-    <div class="filterBox">
-      <h1>Budget</h1>
-      <label for="minBudget">From</label>
-      <input type="text" name="minBudget" id="minBudget">
-      <label for="maxBudget">To</label>
-      <input type="text" name="maxBudget" id="maxBudget">
-    </div>
-    
-    <div class="filterBox">
-      <h1>Language</h1>
-      <input name="genre[]" type="checkbox" id="english" value="english">
-      <label for="english">English</label><br>
-    
-      <input name="genre[]" type="checkbox" id="french" value="french">
-      <label for="french">French</label><br>
 
-      <input name="genre[]" type="checkbox" id="italian" value="italian">
-      <label for="italian">Italian</label><br>
-    
-      <input name="genre[]" type="checkbox" id="chinese" value="chinese">
-      <label for="chinese">Chinese</label>
+      <input name="genre[]" type="checkbox" id="sci-fi" value="sci-fi">
+      <label for="romance">Science Fiction</label><br>
+
+      <input name="genre[]" type="checkbox" id="thriller" value="thriller">
+      <label for="romance">Thriller</label><br>
+
+      <input name="genre[]" type="checkbox" id="western" value="western">
+      <label for="romance">Western</label><br>
     </div>
     
     <input id="submit" class="button" type="submit" value="Filter">
@@ -168,5 +165,5 @@
       
   </div>
     
-  <!--#include file="../Footer/Footer.php" -->
+  <?php include('../Footer/Footer.php') ?>
 </body>

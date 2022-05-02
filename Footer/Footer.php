@@ -22,30 +22,6 @@
         </dl>
       </div>
 
-      <div class="column left">
-        <dl>
-          <dt><b><a href="#">Collections</a></b></dt>
-          <dd><a href="../Directory/Directory.php">Film Festivals</a></dd>
-          <dd><a href="../Directory/Directory.php">Film Schools</a></dd>
-          <dd><a href="../Directory/Directory.php">Editorials</a></dd>
-          <dd><a href="../Directory/Directory.php">User-Generated</a></dd>
-          <br>
-          <dt><a href="../AboutUs/AboutUs.php">About Us</a></dt>
-        </dl>
-      </div>
-
-      <div class="column left">
-        <dl>
-          <dt><b><a href="#">People</a></b></dt>
-          <dd><a href="../Directory/Directory.php">Cast</a></dd>
-          <dd><a href="../Directory/Directory.php">Crew</a></dd>
-          <dd><a href="../Directory/Directory.php">Production Co.</a></dd>
-          <dd><a href="../Directory/Directory.php">Advertising Agencies</a></dd>
-          <br>
-          <dt><a href="../ContactUs/ContactUs.php">Contact Us</a></dt>
-        </dl>
-      </div>
-
       <div class="column right">
         <p>ShortForm is a platform to recongize the creativity of the short form film industry: encompassing short films, experimetal films, music videos, and commercials.</p> <br>
         <p> Made in Austin, Texas</p> <br>

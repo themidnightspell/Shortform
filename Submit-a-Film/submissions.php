@@ -351,9 +351,9 @@ $sql = "SELECT PersonID FROM People WHERE FirstName = '$fname' AND LastName = '$
 $result = $conn->query($sql);
 $p_id = (mysqli_fetch_assoc($result)["PersonID"]);
 $curr_role = "'".$crew_roles[$i]."'";
-echo ($curr_role);
-echo ($m_id);
-echo ($p_id);
+// echo ($curr_role);
+// echo ($m_id);
+// echo ($p_id);
 
 
 $sql = "INSERT INTO WorksOn (MovieID, PersonID, `Role`)
@@ -398,7 +398,7 @@ if (isset($_POST['submit'])){
 // $file = "submissions.txt";
 insert();
 $data = $_POST;
-print_r($data);
+// print_r($data);
 
 }
 

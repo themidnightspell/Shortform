@@ -20,10 +20,10 @@
     <li class="dropdown">
       <a href="#" onclick="return false;" class="dropbtn">Film</a>
       <div class="dropdown-content">
-        <a href="../Directory/Directory.php">Short Films</a>
-        <a href="../Directory/Directory.php">Music Videos</a>
-        <a href="../Directory/Directory.php">Experimentals</a>
-        <a href="../Directory/Directory.php">Commercials</a>
+        <a href="../Directory/Directory.php?category=short">Short Films</a>
+        <a href="../Directory/Directory.php?category=experimentals">Experimentals </a>
+        <a href="../Directory/Directory.php?category=musicvideos">Music Videos</a>
+        <a href="../Directory/Directory.php?category=commercials">Commercials</a>
       </div>
     </li>
 

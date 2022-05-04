@@ -21,30 +21,17 @@
     width: 50px;
 }
 
-#filters .button {
+#filters .buttons {
     margin-left: 10px;
 }
 
 #directory-container {
     width: 800px;
+    gap: 20px;
     float: right;
+    display: grid;
 }
 
-#directory-container img {
-    object-fit: cover;
-    width: 150px;
-    height: 200px;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.grid-item { 
+  padding: 5px
 }

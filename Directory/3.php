@@ -15,6 +15,8 @@
 </td>
 </table>
 
+<p>
+Under a landscape direction and a hypnotic Jazz track, we listen to the people from Toyah, Texas air their concerns about small-town life in the endangered and diverse Chihuahuan desert. Approaching the modern gaze of (9:16) aspect-ratio, we momentarily lapse into a unique façade of life in the desertic south. </p>
 <h3>Cast and Crew:</h3>
 <table>
     <tr>

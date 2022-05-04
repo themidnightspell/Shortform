@@ -63,26 +63,26 @@
   </div>
 
   <div class="row" id="mid-content">
+  <table id = body-table>
+    <td>
     <div class="column">
-      <h3>Featured Films</h3>
       <a href="#"><img src="img4.jpg"></a>
       <a href="#"><img src="img4.jpg"></a>
       <a href="#"><img src="img4.jpg"></a>
-      <a href="#" class="more">See more</a>
     </div>
+</td>
+<td>
+
     <div class="column">
-      <h3>Featured Collections</h3>
       <a href="#"><img src="img4.jpg"></a>
       <a href="#"><img src="img4.jpg"></a>
       <a href="#"><img src="img4.jpg"></a>
-
-      <a href="#" class="more">See more</a>
-
     </div>
+</td>
+<td>
+
     <div class="column" id="news">
-      <h3>Industry News</h3>
-
-      <article>
+      <article class='articles'>
         <a href="https://www.wect.com/2022/03/27/uncw-student-wins-tiktok-contest-produces-short-film-with-netflix/"><img src='article3.jpg' class='images' alt='The Refugee logo, Netflix'></a>
           <a href="https://www.wect.com/2022/03/27/uncw-student-wins-tiktok-contest-produces-short-film-with-netflix/" class='headline'><b>UNCW students wins TikTok contest, produces short film with Netflix</b></a> <br>
           <p class='headline'>WECT, written by Kassie Simmons</p> <br>
@@ -92,7 +92,7 @@
 
       <br>
 
-      <article>
+      <article class='articles'>
         <a href="https://apnews.com/article/immigration-oscars-entertainment-arts-and-entertainment-riz-ahmed-6c9da35867ddc676850e21f7f3279f73"><img src='article2.jpeg' class='images' alt='Riz Ahmed in "The Long Goodbye"'></a>
           <a href="https://apnews.com/article/immigration-oscars-entertainment-arts-and-entertainment-riz-ahmed-6c9da35867ddc676850e21f7f3279f73" class='headline'><b>In a blistering Oscar short film, Riz Ahmed finds cartharsis</b></a> <br>
           <p class='headline'>AP News, written by Jake Coyle</p> <br>
@@ -111,22 +111,11 @@
           <p class='headline'>Image credited to Purple Whale Films via New York Times</p>
       </article>
 
-      <a href="#" class="more">See more</a>
 
     </div>
-  </div>
-  <div class="row" id="trending">
-    <h3>Trending Now</h3>
-    <div id="trending-container">
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-      <div><a href="#"><img src="img5.jpg"></a></div>
-    </div>
-    <a href="#" class="more">See more</a>
+</td>
+
+</table>
   </div>
 
   <?php include('../Footer/Footer.php') ?>

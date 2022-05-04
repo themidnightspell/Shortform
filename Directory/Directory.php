@@ -58,9 +58,7 @@ function ajaxFunction(){
       
       <input name="sort" type="radio" id="alphabetical" value="alphabetical" checked>
       <label for="alphabetical">Alphabetical</label><br>
-    </div>
-
-    <div class="filterBox">
+   
       <h1>Category</h1>
       
       <input name="category" type="radio" id="shortfilms" value="short" checked>
@@ -75,9 +73,7 @@ function ajaxFunction(){
 
       <input name="category" type="radio" id="commercials" value="commercials">
       <label for="commercials">Commercials</label>
-    </div>
     
-    <div class="filterBox">
       <h1>Genre</h1>
 
       <input name="genre" type="radio" id="All" value="*" checked>
@@ -115,11 +111,11 @@ function ajaxFunction(){
 
       <input name="genre" type="radio" id="western" value="Western">
       <label for="western">Western</label><br>
-    </div>
     
     <input id="submit" class="buttons" type="button" value="Filter" onclick="ajaxFunction()">
     <input class="buttons" type="reset" value="Clear">
-    
+    </div>
+
   </form>
     
   <div id="directory-container">

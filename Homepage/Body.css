@@ -87,7 +87,6 @@ display: table;
 width: 100%;
 }
 
-/* Create three equal columns that floats next to each other */
 #mid-content  .column {
 display: table-cell;
 width: 33.33%;
@@ -101,42 +100,13 @@ clear: both;
 }
 
 #mid-content img
-{width: 70%;
+{width: 85%;
 display:block;
-margin: auto;
+/* margin: auto; */
 padding-bottom: 5px;}
 
-#mid-content .more {
-clear:both;
-float: right;
-/* float:right; */
-margin-top:0;
-margin-right: 5em;
-}
 
-#trending {
-margin-left: 40px;
-margin-right: 40px;
-}
 
-#trending img{
-height: 100%;
-}
-
-#trending #trending-container{
-height: 200px;
-display:flex;
-justify-content: space-between;
-
-}
-#trending .more{
-    clear:both;
-    float:right;
-}
-
-#news .articles { 
-  overflow: auto;
-}
 
 #news .images {
   float: left;
@@ -149,4 +119,8 @@ justify-content: space-between;
   color: black;
   display: inline;
   padding: 10px;
+}
+
+#body-table{
+margin:20px;
 }

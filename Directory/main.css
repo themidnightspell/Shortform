@@ -11,6 +11,9 @@
 }
 .filterBox {
     padding: 10px;
+    max-width: 200px;
+    float:left;
+    height: 100vh;
 }
 
 .filterBox input {
@@ -26,12 +29,22 @@
 }
 
 #directory-container {
-    width: 800px;
+    /* max-width: 70%; */
     gap: 20px;
-    float: right;
-    display: grid;
+    /* float: right; */
+    /* display: grid; */
 }
 
 .grid-item { 
-  padding: 5px
+  padding: 5px;
+  float:left;
+}
+
+.poster-img {
+    width: auto;
+    height:320px;
+}
+.directory-table{
+    margin:auto;
+
 }

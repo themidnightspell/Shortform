@@ -40,19 +40,19 @@
    
    //Build Result String
    $display_string = "<table class = 'directory-table'>";
-   $count = 0;
+   $count = 1;
    // Insert a new row in the table for each film returned
    while($row = $result->fetch_array(MYSQLI_ASSOC)) {
-    if ($count%4 == 0){
+    if ($count%4 == 1){
         $display_string .= "<tr>";
     }
     $display_string .= "<td>";
     $display_string .= "<div class='grid-item'>";
     $display_string .= "<img class = 'poster-img' src='$row[Poster]'>";
-    $display_string .= "<p>$row[Title] ($row[Release])</p>";
+    $display_string .= "<a href='./1.php'><p>$row[Title] ($row[Release])</p></a>";
     $display_string .= "</div>";
     $display_string .= "</td>";
-    if ($count%4 == 3){
+    if ($count%4 == 0){
         $display_string .= "</tr>";
     }
     $count++;

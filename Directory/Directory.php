@@ -15,7 +15,9 @@
 <body>
 
 <script language = "javascript" type = "text/javascript">
-
+window.onload = function(){
+  document.getElementById('submitbtn').click();
+}
 //Browser Support Code
 function ajaxFunction(){
   var ajaxRequest;  // The variable that makes Ajax possible!
@@ -112,7 +114,7 @@ function ajaxFunction(){
       <input name="genre" type="radio" id="western" value="Western">
       <label for="western">Western</label><br>
     
-    <input id="submit" class="buttons" type="button" value="Filter" onclick="ajaxFunction()">
+    <input id="submitbtn" class="buttons" type="button" value="Filter" onclick="ajaxFunction()">
     <input class="buttons" type="reset" value="Clear">
     </div>
 

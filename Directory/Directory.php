@@ -9,43 +9,63 @@
   <link rel="icon" href="Logo.svg">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
 
-<script language = "javascript" type = "text/javascript">
-window.onload = function(){
-  document.getElementById('submitbtn').click();
-}
-//Browser Support Code
-function ajaxFunction(){
-  var ajaxRequest;  // The variable that makes Ajax possible!
-  
-  ajaxRequest = new XMLHttpRequest();
-  
-  // Create a function that will receive data sent from the server and will update
-  // the div section in the same page.
-  
-  ajaxRequest.onreadystatechange = function(){
-    if(ajaxRequest.readyState == 4){
-      var ajaxDisplay = document.getElementById('directory-container');
-      ajaxDisplay.innerHTML = ajaxRequest.responseText;
-    }
-  }
-  
-  // Now get the value from user and pass it to server script.
-  sort = document.querySelector('input[name="sort"]:checked').value;
-  category = document.querySelector('input[name="category"]:checked').value;
-  genre = document.querySelector('input[name="genre"]:checked').value;
+<body>
 
-  queryString = "?sort=" + sort;
-  queryString +=  "&category=" + category;
-  queryString +=  "&genre=" + genre;
+<script language = "javascript" type = "text/javascript">
+
+  $(window).on('load', function() {
+    let elem = 'input[type=radio]';
+    let url = window.location.href;
+    let keyVal = '1';
+
+    if (url.indexOf('?') !== -1) {
+      keyVal = url.split('?')[1].split('=')[1];
+    }
+
+    let id = keyVal;
+    console.log(id)
+
+    $(elem).each(function(i) {
+      if ($(this).prop('id') === id) {
+        $(this).prop('checked', true);
+      }
+    });
+    document.getElementById('submitbtn').click();
+  });
   
-  ajaxRequest.open("GET", "DirectoryHelper.php" + queryString, true);
-  ajaxRequest.send(null);
-}
+  //Browser Support Code
+  function ajaxFunction(){
+    var ajaxRequest;  // The variable that makes Ajax possible!
+    
+    ajaxRequest = new XMLHttpRequest();
+    
+    // Create a function that will receive data sent from the server and will update
+    // the div section in the same page.
+    
+    ajaxRequest.onreadystatechange = function(){
+      if(ajaxRequest.readyState == 4){
+        var ajaxDisplay = document.getElementById('directory-container');
+        ajaxDisplay.innerHTML = ajaxRequest.responseText;
+      }
+    }
+    
+    // Now get the value from user and pass it to server script.
+    sort = document.querySelector('input[name="sort"]:checked').value;
+    category = document.querySelector('input[name="category"]:checked').value;
+    genre = document.querySelector('input[name="genre"]:checked').value;
+
+    queryString = "?sort=" + sort;
+    queryString +=  "&category=" + category;
+    queryString +=  "&genre=" + genre;
+    
+    ajaxRequest.open("GET", "DirectoryHelper.php" + queryString, true);
+    ajaxRequest.send(null);
+  }
 
 </script>
 
@@ -63,8 +83,8 @@ function ajaxFunction(){
    
       <h1>Category</h1>
       
-      <input name="category" type="radio" id="shortfilms" value="short" checked>
-      <label for="shortfilms">Shortfilms</label><br>
+      <input name="category" type="radio" id="short" value="short" checked>
+      <label for="short">Shortfilms</label><br>
 
       <input name="category" type="radio" id="experimentals" value="experimentals">
       <label for="experimentals">Experimentals</label><br>

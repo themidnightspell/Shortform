@@ -13,10 +13,10 @@
       <div class="column left">
         <dl>
           <dt><b><a href="#">Films</a></b></dt>
-          <dd><a href="../Directory/Directory.php">Short Films</a></dd>
-          <dd><a href="../Directory/Directory.php">Music Videos</a></dd>
-          <dd><a href="../Directory/Directory.php">Experimentals</a></dd>
-          <dd><a href="../Directory/Directory.php">Commercials</a></dd>
+          <dd><a href="../Directory/Directory.php?category=short">Short Films</a></dd>
+          <dd><a href="../Directory/Directory.php?category=experimentals">Experimentals </a></dd>
+          <dd><a href="../Directory/Directory.php?category=musicvideos">Music Videos</a></dd>
+          <dd><a href="../Directory/Directory.php?category=commercials">Commercials</a></dd>
           <br>
           <dt><a href="#">Terms+Conditions</a></dt>
         </dl>

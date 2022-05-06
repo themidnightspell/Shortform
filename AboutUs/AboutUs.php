@@ -62,7 +62,7 @@
 
     </p>
     
-    <h1>How we’re approaching it…</h1>
+    <!-- <h1>How we’re approaching it…</h1>
     
     <p>
     We plan on collecting our initial “dataset” from the UT end-of-semester screenings and local film festivals (SXSW, Austin Film Festival, etc.). Then, we would branch out to other film schools and festivals. We believe this approach would allow us to get a steady stream of visitors to our website as Shortform’s directory would feature film projects they care about.
@@ -86,8 +86,9 @@
     </p><p>
     Additionally, some of the pages would feature annotated links to webpages of interests as well as a related news box/module. Project pages could also feature locally-hosted video content, or videos embedded from Vimeo or YouTube.
     </p>
+             -->
         </div>
-        
+
     <?php include("../Footer/Footer.php") ?>
 
 

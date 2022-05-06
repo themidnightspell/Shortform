@@ -18,12 +18,12 @@
           <dd><a href="../Directory/Directory.php?category=musicvideos">Music Videos</a></dd>
           <dd><a href="../Directory/Directory.php?category=commercials">Commercials</a></dd>
           <br>
-          <dt><a href="#">Terms+Conditions</a></dt>
+          <dt><a href="../AboutUs/AboutUs.php">About Us</a></dt>
         </dl>
       </div>
 
       <div class="column right">
-        <p>ShortForm is a platform to recongize the creativity of the short form film industry: encompassing short films, experimetal films, music videos, and commercials.</p> <br>
+        <p>ShortForm is a platform to recongize the creativity of the short form film industry: encompassing short films, experimental films, music videos, and commercials.</p> <br>
         <p> Made in Austin, Texas</p> <br>
         <p><a href="https://www.instagram.com/shortformclub/">Instagram</a>/<a href="https://twitter.com/ShortForm12">Twitter</a>/<a href="https://www.youtube.com/channel/UCv2H1HDlqs78vx3qjRi2qeg">YouTube</a></p>
       </div>

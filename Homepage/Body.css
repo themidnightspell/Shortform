@@ -1,12 +1,14 @@
 #featured {box-sizing: border-box;}
-#featured {font-family: Verdana, sans-serif; margin:0}
+#featured { font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; margin:0}
 #featured .mySlides {display: none}
 #featured img {vertical-align: middle;
 width: 100%;
 height: calc((50vw) * 0.5625);
 object-fit: cover;
 }
-
+*{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
 /* Slideshow container */
 #featured .slideshow-container {
 max-width: 1300px;

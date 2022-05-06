@@ -30,9 +30,9 @@
 
    //build query
    if ($genre == "*") {
-    $query = "SELECT `Poster`, `Title`, `Release` FROM Movie WHERE `Type` = '$category' ORDER BY Title ASC";
+    $query = "SELECT `Poster`, `Title`, `Release`, `MovieID` FROM Movie WHERE `Type` = '$category' ORDER BY Title ASC";
    } else {
-    $query = "SELECT `Poster`, `Title`, `Release` FROM Movie WHERE `Type` = '$category' AND (GenreOne = '$genre' OR GenreTwo = '$genre') ORDER BY Title ASC";
+    $query = "SELECT `Poster`, `Title`, `Release`, `MovieID` FROM Movie WHERE `Type` = '$category' AND (GenreOne = '$genre' OR GenreTwo = '$genre') ORDER BY Title ASC";
    }
 
    //Execute query
@@ -49,7 +49,7 @@
     $display_string .= "<td>";
     $display_string .= "<div class='grid-item'>";
     $display_string .= "<img class = 'poster-img' src='$row[Poster]'>";
-    $display_string .= "<a href='./1.php'><p>$row[Title] ($row[Release])</p></a>";
+    $display_string .= "<a href='./$row[MovieID].php'><p>$row[Title] ($row[Release])</p></a>";
     $display_string .= "</div>";
     $display_string .= "</td>";
     if ($count%4 == 0){

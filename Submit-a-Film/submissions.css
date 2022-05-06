@@ -9,6 +9,9 @@
   background-color:white
 }
   
+*{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+  }
   h1 {
     margin:0px;
   }

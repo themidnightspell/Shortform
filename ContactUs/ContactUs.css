@@ -1,7 +1,9 @@
 body {
     background: white;
 }
-
+*{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+    }
 h3 {
     
     text-align: center;

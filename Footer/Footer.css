@@ -1,6 +1,9 @@
 #footer {
   margin: auto;
 }
+*{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+  }
 
 #footer .container { 
   background-color: #0000ff;

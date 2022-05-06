@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php include('../Header/Header.php') ?>
 
 <head>
   <title>ShortForm</title>
@@ -14,7 +15,6 @@
 
 <body>
 
-<body>
 
 <script language = "javascript" type = "text/javascript">
 
@@ -69,7 +69,7 @@
 
 </script>
 
-  <?php include('../Header/Header.php') ?>
+  <?php include('../Header/ .php') ?>
   <form method="POST" id='myForm'> 
         
     <div class="filterBox">
@@ -143,5 +143,6 @@
   <div id="directory-container">
   </div>
     
- <?php // include('../Footer/Footer.php') ?>
+ <?php include('../Footer/Footer.php') ?>
 </body>
+</html>
